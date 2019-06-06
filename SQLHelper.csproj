@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>SqlClientDataAccess</AssemblyName>
+    <RootNamespace>SqlClientDataAccess</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>SqlClientDataAccess.SQLHelper</PackageId>
+    <PackageVersion>0.5</PackageVersion>
+    <Title>A port of the SqlHelper class present before in the Microsoft.ApplicationsBlocks.Data</Title>
+    <Authors>Oussama Dinia</Authors>
+    <Description>This class helps write less code, to execute queries against SQL Server, using Microsoft.Data.SqlClient</Description>
+    <RepositoryUrl>https://github.com/oudinia/sqlclient-sql-helper</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="1.0.19128.1-Preview" />
+  </ItemGroup>
+
+</Project>
